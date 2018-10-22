@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,8 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AudioPlayer.cs" />
+    <Compile Include="AudioTag.cs" />
+    <Compile Include="Effect.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="ImageEditor.cs" />
+    <Compile Include="ImageViewer.cs" />
+    <Compile Include="IMediaPlayer.cs" />
+    <Compile Include="MediaPlayerBase.cs" />
+    <Compile Include="MultiMediaPlayerBase.cs" />
+    <Compile Include="PlayList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TagEditor.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="VideoPlayer.cs" />
+    <Compile Include="Viewable.cs" />
+    <Compile Include="Vignette.cs" />
+    <Compile Include="Watermark.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
